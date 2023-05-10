@@ -26,7 +26,7 @@ import com.courierservice.courierservicebackend.userdetails.UserDetailsRepositor
 
 import jakarta.validation.Valid;
 
-@CrossOrigin(origins = "https://courier-service.vercel.app/")
+@CrossOrigin(origins = "*")
 @RestController
 public class CourierServiceRestController {
 
